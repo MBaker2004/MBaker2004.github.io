@@ -79,3 +79,7 @@ a
   background-color: #7fbaff;
   border-radius: 15px;
 }
+
+iframe{
+  margin: auto;
+}
