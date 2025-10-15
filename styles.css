@@ -155,11 +155,14 @@ a {
   border-radius: 15px;
 }
 
-iframe{
-  position:relative;
+.game {
+   position:relative;
   top: 10px;
   left: 23.7%;
   display: block;
+}
+
+iframe{
   outline: none;
   border:none;
 }
