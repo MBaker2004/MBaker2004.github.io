@@ -3,25 +3,6 @@
   box-sizing: border-box;
 }
 
-.profile {
-  float: left;
-  padding: 12px;
-}
-
-.Leftcolum {
-  width: 35%
-}
-
-.Rightcolum {
-  width: 65%;
-}
-
-.profile:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -64,6 +45,55 @@ ul.topnav li a:hover {
 ul.topnav li a:active {
   background-color: #04AA6D;
   color: white;
+}
+
+.row{
+  padding: 12px
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  background-image: url(/Image/MorganImage.png);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border: ridge;
+  border-width: 5px 3px 5px 5px;
+  width: 40%;
+}
+
+.sub-div{
+  position: relative;
+  bottom: -400px;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  padding: 0.3px;
+  text-align: center;
+  line-height: 0.3;
+}
+
+.right {
+  width: 60%;
+  border: ridge;
+  border-width: 5px 5px 5px 0px;
+}
+
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+@media screen and (max-width: 800px) {
+  .column{
+    width: 100%;
+  }
 }
 
 .card{
