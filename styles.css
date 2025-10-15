@@ -49,7 +49,7 @@ ul.topnav li a:active {
 }
 
 .row{
-  margin-left: 23%;
+  margin-left: 23.7%;
   width: 900px;
   position: relative;
   top: 10px;
@@ -156,6 +156,6 @@ a {
 }
 
 iframe{
-   padding-top: 12px;
+  padding-top: 12px;
   margin-left: 23%;
 }
