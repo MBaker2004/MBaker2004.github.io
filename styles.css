@@ -1,8 +1,31 @@
 
+* {
+  box-sizing: border-box;
+}
+
+.profile {
+  float: left;
+  padding: 12px;
+}
+
+.Leftcolum {
+  width: 35%
+}
+
+.Rightcolum {
+  width: 65%;
+}
+
+.profile:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 body {
   margin: 0;
   padding: 0;
+  min-height: 350px;
 }
 
 div.header {
