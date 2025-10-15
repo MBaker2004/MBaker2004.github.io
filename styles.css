@@ -157,6 +157,9 @@ a {
 
 iframe{
   position:relative;
-  padding-top: 12px;
+  top: 10px;
   left: 23.7%;
+  display: block;
+  outline: none;
+  border:none;
 }
