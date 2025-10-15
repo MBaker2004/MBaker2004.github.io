@@ -49,30 +49,51 @@ ul.topnav li a:active {
 }
 
 .row{
-  padding: 12px
+  margin-left: 25%;
+  width: 900px;
+  position: relative;
+  top: 10px;
+  padding: 12px;
+  border: solid;
+  border-width: 5px;
 }
 
 .column {
   float: left;
   padding: 10px;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 500px; 
 }
 
 .left {
+  border: solid;
+  border-width: 5px 3px 5px 5px;
+  width: 360px;
+}
+
+.Picture{
+  position: relative;
+  height: 325px;
+  width: 275px;
+  margin: auto;
+  top: 10px;
   background-image: url(/Image/MorganImage.png);
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
-  border: ridge;
-  border-width: 5px 3px 5px 5px;
-  width: 40%;
+}
+
+hr {
+  position: relative;
+  border: double;
+  top: 24px;
+  width: 75%;
 }
 
 .sub-div{
   position: relative;
-  bottom: -400px;
+  bottom: -44px;
   background-color: white;
-  width: 100%;
+  width: 237px;
   margin: auto;
   padding: 0.3px;
   text-align: center;
@@ -80,9 +101,9 @@ ul.topnav li a:active {
 }
 
 .right {
-  width: 60%;
-  border: ridge;
-  border-width: 5px 5px 5px 0px;
+  width: 506px;
+  border: solid;
+  border-width: 5px 5px 5px 5px;
 }
 
  .row:after {
@@ -91,11 +112,11 @@ ul.topnav li a:active {
   clear: both;
 } 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .column{
     width: 100%;
   }
-}
+} */
 
 .card{
   background-color: lavenderblush;
