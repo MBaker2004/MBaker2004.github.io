@@ -158,7 +158,8 @@ a {
 .game {
    position:relative;
   top: 10px;
-  left: 200px;
+  left: 23.7%;
+  display: block;
 }
 
 iframe{
