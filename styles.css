@@ -18,7 +18,6 @@ div.header {
 
 .topnav
 {
-  position: sticky;
   top: 0;
   overflow: hidden;
 }
@@ -182,12 +181,11 @@ h1{
 }
 
 section {
-  background-color: a;
   margin: auto;
   height: 400px;
 }
 
-/*.card{
+.featured{
   background-color: lavenderblush;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -196,18 +194,18 @@ section {
 }
 
 
-.card:hover {
+.featured:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}*/
+}
 
 .card-img-top {
   height: 100%;
 }
 
-/*.card-body
+.showcase
 {
   padding: 5px;
-}*/
+}
 
 a {
   color:#dfdfdf;
