@@ -156,7 +156,7 @@ a {
 }
 
 .game {
-   position:relative;
+   position:flex;
   top: 10px;
   
   display: block;
