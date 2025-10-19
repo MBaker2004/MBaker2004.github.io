@@ -158,8 +158,10 @@ a {
 .game {
    position:relative;
   top: 10px;
-  left: 23.7%;
+  
   display: block;
+  background-color: azure;
+  margin: auto;
 }
 
 iframe{
