@@ -233,15 +233,15 @@ a {
 }
 
 .game {
-   position:relative;
-  top: 10px;
-  
-  display: block;
   background-color: azure;
-  margin: auto;
 }
 
 iframe{
+  position:relative;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
   outline: none;
   border:none;
 }
