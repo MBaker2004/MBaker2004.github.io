@@ -87,6 +87,10 @@ ul.topnav li a:active {
   border-radius: 250px;
 }
 
+h2{
+  text-align: center;
+}
+
 hr {
   position: relative;
   border: double;
