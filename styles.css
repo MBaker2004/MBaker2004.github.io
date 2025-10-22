@@ -130,12 +130,12 @@ h1{
 .featured-row{
 
   position: relative;
-  width: auto;
   left:0;
   right: 0;
   margin: auto;
   top: 37px;
   display: grid;
+  height: 75%;
   grid-template-columns: auto auto auto;
   gap: 0.5px;
   width: 1240px;
