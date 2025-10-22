@@ -232,13 +232,11 @@ a {
   border-radius: 15px;
 }
 
-.game {
-  background-color: azure;
-}
+
 
 iframe{
-  position:relative;
-  top: 10px;
+  position:absolute;
+  top: 60px;
   left: 0;
   right: 0;
   margin: auto;
