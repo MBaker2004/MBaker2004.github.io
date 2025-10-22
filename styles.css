@@ -48,9 +48,12 @@ ul.topnav li a:active {
 }
 
 .row{
-  margin-left: 23.7%;
+  
   width: 900px;
   position: relative;
+  left:0;
+  right: 0;
+  margin: auto;
   top: 20px;
   padding: 12px;
   border: solid;
@@ -88,6 +91,9 @@ hr {
   position: relative;
   border: double;
   top: 24px;
+  left: 0;
+  right: 0;
+  margin: auto;
   width: 75%;
 }
 
@@ -124,7 +130,9 @@ h1{
 .featured-row{
 
   position: relative;
-    margin-left: 14%;
+  left:0;
+  right: 0;
+  margin: auto;
   top: 37px;
   display: grid;
   grid-template-columns: auto auto auto;
