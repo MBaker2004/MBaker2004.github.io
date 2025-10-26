@@ -28,19 +28,21 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #fb806f;
+  font-size: large;
+  font-style: bold;
 }
 
 ul.topnav li a {
   display: block;
-  color: #f1f1f1;
+  color: #ffe6e2;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul.topnav li a:hover {
-  background-color: #dddddd;
-  color: black;
+  background-color: #fc6444;
+  color: #ffffff;
 }
 
 ul.topnav li a:active {
@@ -220,13 +222,6 @@ iframe{
   margin: auto;
   outline: none;
   border:none;
-}
-
-.icons {
-  width: fit-content;
-  height: fit-content;
-  border-radius: 100%;
-  background-color: #e97580;
 }
 
 footer {
