@@ -11,9 +11,10 @@ body {
 }
 
 div.header {
-  background-color: #f1f1f1;
+  background-color: #d8e5fa;
   padding: 10px;
   text-align: center;
+  color: #4c344c;
 }
 
 .topnav
@@ -156,6 +157,7 @@ h1{
   gap: 0.5px;
   width: 1240px;
   padding: 10px;
+  margin-bottom: 100px;
 }
 
 .featured{
@@ -218,4 +220,19 @@ iframe{
   margin: auto;
   outline: none;
   border:none;
+}
+
+.icons {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100%;
+  background-color: #e97580;
+}
+
+footer {
+  background-color: #fb806f;
+  padding: 0.1px;
+  text-align: center;
+  color: #ffe6e2;
+  font-size: 30px;
 }
