@@ -46,7 +46,7 @@ ul.topnav li a:hover {
 }
 
 ul.topnav li a:active {
-  background-color: #04AA6D;
+  background-color: #e97580;
   color: white;
 }
 
@@ -222,6 +222,14 @@ iframe{
   margin: auto;
   outline: none;
   border:none;
+}
+
+aside{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  background-color: #9dbfe9;
 }
 
 footer {
