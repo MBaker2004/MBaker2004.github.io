@@ -218,18 +218,22 @@ a {
 
 iframe{
   position:absolute;
-  top: 60px;
-  margin: auto;
+  margin-top: 10px;
+  margin-left: 15px;
   outline: none;
   border:none;
 }
 
-aside{
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
+.side-content{
+  width: 622px;
+  padding: 7px;
+  margin-right: 15px;
+  margin-top: 10px;
+  display: block;
+  position: relative;
   float: right;
   background-color: #9dbfe9;
+  height: 670px;
 }
 
 footer {
