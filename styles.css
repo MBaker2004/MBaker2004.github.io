@@ -238,8 +238,10 @@ iframe{
 
 footer {
   background-color: #fb806f;
+  bottom: -10px;
   padding: 0.1px;
   text-align: center;
   color: #ffe6e2;
   font-size: 30px;
+  width: 100%
 }
